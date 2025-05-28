@@ -15,7 +15,7 @@ def circuit():
   qc.CNOT(wires = [0,2])
 
   return qc.state()
-
+# 
 probability_amplitudes= circuit()
 basis_states = ['|000>', '|001>', '|010>', '|011>', '|100>', '|101>', '|110>', '|111>']
 
