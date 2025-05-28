@@ -3,7 +3,7 @@ import pennylane as qc
 dev = qc.device("default.qubit", wires=3)
 @qc.qnode(dev)
 def circuit():
-
+###
 # STEP 1 to get PSI1
   qc.PauliX(wires = 0) 
   qc.PauliX(wires = 2)
